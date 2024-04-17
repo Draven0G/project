@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Schedule App - Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Bus Schedule and Fare Prices</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Route</th>
+                    <th>Departure Time</th>
+                    <th>Fare Price</th>
+                    <th>Book a Spot</th>
+                </tr>
+            </thead>
+            <tbody id="scheduleTable">
+                <!-- Bus schedules and fare prices will be dynamically inserted here -->
+                <tr>
+                    <td>Route 1</td>
+                    <td>09:00 AM</td>
+                    <td>$10.00</td>
+                    <td><button class="btn btn-primary book-btn" data-index="0">Book</button></td>
+                </tr>
+                <tr>
+                    <td>Route 2</td>
+                    <td>10:30 AM</td>
+                    <td>$12.50</td>
+                    <td><button class="btn btn-primary book-btn" data-index="1">Book</button></td>
+                </tr>
+                <tr>
+                    <td>Route 3</td>
+                    <td>12:00 PM</td>
+                    <td>$9.75</td>
+                    <td><button class="btn btn-primary book-btn" data-index="2">Book</button></td>
+                </tr>
+                <tr>
+                    <td>Route 4</td>
+                    <td>02:00 PM</td>
+                    <td>$15.00</td>
+                    <td><button class="btn btn-primary book-btn" data-index="3">Book</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
